@@ -13,8 +13,8 @@ const FormSplitBill = ({ selectedFriend, onSplitBill }) => {
         onSplitBill(whoIsPaying === 'user' ? paidByFriend : -paidByUser)
     }
     return (
-        <div className='bg-yellow-200 w-[450px] h-full md:w-[450px] sm:w-auto p-4 m-2 rounded'>
-            <form className='grid p-2' onSubmit={handleSubmit}>
+        <div className='bg-yellow-200 md:w-[450px] h-full p-2 m-2 rounded md:my-0 '>
+            <form className='grid p-2 w-full md:gap-2' onSubmit={handleSubmit}>
                 <h2 className='font-bold uppercase m-2 text-xl'>Split a bill with {selectedFriend.name}</h2>
                 <div className='grid grid-cols-2 gap-2 rounded p-2'>
                     <label className='font-semibold' for='bill-value'>Bill Value:</label>

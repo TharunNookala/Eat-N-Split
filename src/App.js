@@ -60,7 +60,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className='px-4 py-4 flex flex-row items-center justify-center'>
+      <div className='py-2 flex flex-col my-0 items-center sm:m-2 sm:flex-row md:justify-center md:h-full'>
         <div className='text-center'>
           <PersonsList
             friends={friends}

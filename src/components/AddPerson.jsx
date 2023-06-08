@@ -24,7 +24,7 @@ const AddPerson = ({ onAddFriend }) => {
     }
 
     return (
-        <form className='grid grid-cols-2 gap-4 w-fit justify-center bg-yellow-200 p-4 m-2'
+        <form className='grid grid-cols-2 gap-2 justify-center bg-yellow-200 p-4 m-2'
             onSubmit={handleSubmit}
         >
             <label
